@@ -7,7 +7,7 @@ the given periode
 """
 
 
-from testkara import ft
+from fetchapi import ft
 import pandas as pd
 
 
