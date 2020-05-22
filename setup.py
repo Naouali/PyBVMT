@@ -14,7 +14,11 @@ my_data = data.json()
 my_list = []
 for line in my_data:
     my_list.append(line)
+my_list = my_list[1:]
 my_list = pd.DataFrame(my_list)
+my_list.columns = ['Date', 'Price', 'Open', 'Low', 'High', 'Volume', 'Change']
+my_list.set_index("Date", inplace=True)
+
 print(my_list)
 
 
