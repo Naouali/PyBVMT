@@ -45,5 +45,3 @@ class Get:
                     s += args[i]
             return d_f[s]
         return d_f
-    
-

@@ -31,6 +31,18 @@ def ft(ticker):
                        'High',
                        'Volume',
                        'Change']
+    my_list[['Price', 
+        'Open',
+        'Low', 
+        'High',
+        'Volume', 
+        'Change']] = my_list[['Price',
+            'Open',
+            'Low', 
+            'High',
+            'Volume', 
+            'Change']].apply(pd.to_numeric)
+    my_list['Date'] = my_list['Date'].apply(pd.to_datetime)
     my_list.set_index("Date", inplace=True)
 
     return(my_list)
