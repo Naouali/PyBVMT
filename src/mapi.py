@@ -12,7 +12,7 @@ import pandas as pd
 
 
 
-class Get:
+class Get():
 
     def __init__(self, ticker, start, end):
         """
@@ -24,18 +24,19 @@ class Get:
         self.start = start
         self.end = end
 
+    
 
     def _Data(self, *args):
         """
         method to get all the data of a given stock
         of a specific data like only "Price", or "High"
         """
-      
+       
         df = ft(self.ticker) 
         start_date = self.start
         end_date = self.end
-        after = df.index >= start_date
-        before = df.index <= end_date
+        after = df.index >= pd.to_datetime(start_date)
+        before = df.index <= pd.to_datetime(end_date)
         periode = after & before
         d_f = df.loc[periode]
         if len(args) != 0:

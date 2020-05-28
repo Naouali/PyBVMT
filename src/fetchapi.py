@@ -46,3 +46,5 @@ def ft(ticker):
     my_list.set_index("Date", inplace=True)
 
     return(my_list)
+
+
