@@ -24,6 +24,8 @@ setup(
     install_requires = [
         'pandas>=1.0.0',
         'requests>= 2.20.0',
+        'mplfinance>=0.12.4',
+        'matplotlib>= 3.1.0',
         ],
     extras_require = {
         'dev': [
