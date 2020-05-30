@@ -25,18 +25,18 @@ def ft(ticker):
     my_list = my_list[1:]
     my_list = pd.DataFrame(my_list)
     my_list.columns = ['Date',
-                       'Price',
+                       'Close',
                        'Open',
                        'Low',
                        'High',
                        'Volume',
                        'Change']
-    my_list[['Price', 
+    my_list[['Close', 
         'Open',
         'Low', 
         'High',
         'Volume', 
-        'Change']] = my_list[['Price',
+        'Change']] = my_list[['Close',
             'Open',
             'Low', 
             'High',
