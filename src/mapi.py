@@ -58,11 +58,5 @@ class Get():
         before = df.index <= pd.to_datetime(end_date)
         periode = after & before
         d_f = df.loc[periode]
-        if len(args) != 0:
-            s =""
-            for i in range(len(args)):
-                if i == 0:
-                    s += args[i]
-            mpf.plot(d_f[s], type='candle', volume=True)
         mpf.plot(d_f, type='candle', volume=True)
 
