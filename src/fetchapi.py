@@ -17,7 +17,7 @@ def ft(ticker):
     args: tickername: string
     return: pandas dataframe
     """
-    data = requests.get('http://127.0.0.1:8000/api/'+ticker)
+    data = requests.get('https://shrouded-escarpment-92748.herokuapp.com/api/'+ticker)
     my_data = data.json()
     my_list = []
     for line in my_data:
