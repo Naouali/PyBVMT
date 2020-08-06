@@ -10,3 +10,7 @@ any requests
  Get class
  data ; display data as pandas dataframe
  plot: plot data;
+ > '''python
+ def hello:
+ return n
+ '''
