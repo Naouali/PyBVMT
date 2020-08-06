@@ -6,3 +6,7 @@ any requests
 	NAOUALI Nebil
  Installation:
  pip3 install mapi
+
+ Get class
+ data ; display data as pandas dataframe
+ plot: plot data;
