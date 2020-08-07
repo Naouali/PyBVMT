@@ -33,3 +33,10 @@ Use the package manager [pip](https://pypi.org/project/bvmtapi/) to install bvmt
 | 2015-01-05 | 79.79 |  78.25 | 79.79 | 78.25 | 00.44 |  2.27 | 
 | 2015-01-02 | 78.02 |  79.50 | 79.90 | 78.02 | 01.31 |  0.03 | 
 
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
