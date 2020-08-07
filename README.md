@@ -8,6 +8,11 @@
 	__NAOUALI Nebil__
 
 ## Installation:
+Use the package manaer [pip] (https://pypi.org/project/bvmtapi/) to install bvmtapi
  ```bash
  pip install bvmtapi
+ ```
+## Usage
+ ```python
+ from mapi import Get
  ```
