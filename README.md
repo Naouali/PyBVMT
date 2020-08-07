@@ -8,7 +8,7 @@
 	__NAOUALI Nebil__
 
 ## Installation:
-Use the package manaer [pip] (https://pypi.org/project/bvmtapi/) to install bvmtapi
+Use the package manager [pip](https://pypi.org/project/bvmtapi/) to install bvmtapi
  ```bash
  pip install bvmtapi
  ```
