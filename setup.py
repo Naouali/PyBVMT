@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pyBVMT",
-    version="0.0.1",
+    version="0.0.2",
     author="NAOUALI Nebil",
     author_email="elnaoualinebil@gmail.com",
     description="BVMT API",
@@ -26,12 +26,12 @@ setup(
     install_requires = [
         'pandas>=1.0.0',
         'requests>= 2.20.0',
-        'matplotlib>= 3.1.0',
+        'matplotlib>= 3.0.0',
         ],
     extras_require = {
         'dev': [
             'pandas',
             'requests']
         },
-    python_requires='>=3.6',
+    python_requires='>=3.5',
     )
