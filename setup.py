@@ -14,6 +14,7 @@ setup(
     author="NAOUALI Nebil",
     author_email="elnaoualinebil@gmail.com",
     description="BVMT API",
+    download_url="https://github.com/Naouali/pyBVMT/archive/pyBVMT.tar.gz"
     long_description_content_type="text/markdown",
     py_modules = ['fetchapi', 'pyBVMT'],
     package_dir = {'':'src'},
