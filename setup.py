@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-setup for mapi package
+setup for PyBVMT package
 """
 
 from setuptools import setup
