@@ -9,7 +9,7 @@ the given periode
 
 from fetchapi import ft
 import pandas as pd
-import mplfinance as mpf
+
 
 
 class Get(pd.DataFrame):
@@ -26,15 +26,15 @@ class Get(pd.DataFrame):
         self.ticker = ticker
         self.start = start
         self.end = end
-    
+
 
     def Data(self, *args):
         """
         method to get all the data of a given stock
         of a specific data like only "Price", or "High"
         """
-       
-        df = ft(self.ticker) 
+
+        df = ft(self.ticker)
         start_date = self.start
         end_date = self.end
         after = df.index >= pd.to_datetime(start_date)
@@ -49,17 +49,5 @@ class Get(pd.DataFrame):
                     s += args[i]
             return pd.Series(d_f[s])
         return d_f
-    
-    def Plot(self, *args):
-        """
-        plot the fetched data
-        """
-        df = ft(self.ticker)
-        start_date = self.start
-        end_date = self.end
-        after = df.index >= pd.to_datetime(start_date)
-        before = df.index <= pd.to_datetime(end_date)
-        periode = after & before
-        d_f = df.loc[periode]
-        mpf.plot(d_f, type='candle', volume=True)
+
 

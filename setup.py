@@ -9,13 +9,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="bvmtapi",
-    version="0.0.2",
+    name="pyBVMT",
+    version="0.0.1",
     author="NAOUALI Nebil",
     author_email="elnaoualinebil@gmail.com",
-    description="Mapi api module",
+    description="BVMT API",
     long_description_content_type="text/markdown",
-    py_modules = ['fetchapi', 'mapi'], 
+    py_modules = ['fetchapi', 'pyBVMT'],
     package_dir = {'':'src'},
     classifiers=[
         "Programming Language :: Python :: 3.6",
@@ -26,7 +26,6 @@ setup(
     install_requires = [
         'pandas>=1.0.0',
         'requests>= 2.20.0',
-        'mplfinance>=0.12.0',
         'matplotlib>= 3.1.0',
         ],
     extras_require = {

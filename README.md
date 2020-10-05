@@ -1,4 +1,4 @@
-# [BVMTAPI](https://bvmtapi.herokuapp.com/)
+# [pyBVMT](https://bvmtapi.herokuapp.com/)
 <br>
 
 ## Introduction:
@@ -8,13 +8,13 @@
 > [NAOUALI Nebil](https://www.linkedin.com/in/noualinebil/)
 
 ## Installation:
-Use the package manager [pip](https://pypi.org/project/bvmtapi/) to install bvmtapi
+Use the package manager [pip](https://pypi.org/project/bvmtapi/) to install pyBVMT
  ```bash
- pip install bvmtapi
+ pip install pyBVMT
  ```
 ## Usage
  ```python
- from mapi import Get
+ from pyBVMT import Get
  biat = Get('biat', '2015-01-01', '2017-01-01')
  biat.Data()
  ```
