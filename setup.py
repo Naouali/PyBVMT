@@ -9,14 +9,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="pyBVMT",
-    version="0.0.3",
+    name="PyBVMT",
+    version="1.0.0",
     author="NAOUALI Nebil",
     author_email="elnaoualinebil@gmail.com",
     description="BVMT API",
+    licence="MIT",
     download_url="https://github.com/Naouali/pyBVMT/archive/pyBVMT.tar.gz",
     long_description_content_type="text/markdown",
-    py_modules = ['fetchapi', 'pyBVMT'],
+    py_modules = ['fetchapi', 'PyBVMT'],
     package_dir = {'':'src'},
     classifiers=[
         "Programming Language :: Python :: 3.6",
