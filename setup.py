@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pyBVMT",
-    version="0.0.2",
+    version="0.0.3",
     author="NAOUALI Nebil",
     author_email="elnaoualinebil@gmail.com",
     description="BVMT API",
