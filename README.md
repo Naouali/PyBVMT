@@ -2,7 +2,7 @@
 <br>
 
 ## Introduction:
-> pyBVMT is a python package that allow user to fecth financial data for any given stock indexed in the Tunisian Stock exchange without writing any requests.
+> PyBVMT is a python package that allow user to fecth financial data for any given stock indexed in the Tunisian Stock exchange without writing any requests.
 
 ## Author:
 > [NAOUALI Nebil](https://www.linkedin.com/in/noualinebil/)
