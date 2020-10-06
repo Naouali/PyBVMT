@@ -8,13 +8,13 @@
 > [NAOUALI Nebil](https://www.linkedin.com/in/noualinebil/)
 
 ## Installation:
-Use the package manager [pip](https://pypi.org/project/bvmtapi/) to install pyBVMT
+Use the package manager [pip](https://pypi.org/project/PyBVMT/) to install PyBVMT
  ```bash
- pip3 install pyBVMT
+ pip3 install PyBVMT
  ```
 ## Usage
  ```python
- from pyBVMT import Get
+ from PyBVMT import Get
  biat = Get('biat', '2015-01-01', '2017-01-01')
  biat.Data()
  ```
