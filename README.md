@@ -1,4 +1,4 @@
-# [pyBVMT](https://pypi.org/project/pyBVMT/)
+# [PyBVMT](https://pypi.org/project/PyBVMT/)
 <br>
 
 ## Introduction:
